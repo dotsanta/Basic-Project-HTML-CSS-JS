@@ -1,0 +1,40 @@
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+#input{
+    font-size: 24px;
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+}
+button{
+    font-size: 24px;
+    padding: 10px;
+    width: 20%;
+    background-color: dodgerblue;
+    border: none;
+    cursor: pointer;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(251, 242, 230);
+}
+li:hover{
+    background-color: burlywood;
+}
+.completed{
+    text-decoration: line-through;
+    color: gray;
+}
